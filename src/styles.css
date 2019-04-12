@@ -1,1 +1,157 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+.html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+a {
+  font-size: 16px;
+}
+.landing {
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  min-height: 600px;
+}
+.blob-left {
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.button {
+  padding: 0 25px;
+  line-height: 50px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0;
+  background: #fff;
+  color: #555;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+  will-change: transform;
+  box-shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
+  border: 1px solid #eee;
+  display: inline-block;
+}
+
+.button-principal {
+  border: none;
+  background: #333;
+  color: #fff;
+  box-shadow: 0 7px 29px 0 rgba(0, 0, 0, 0.4);
+  margin-left: 0;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-principal:hover {
+  box-shadow: 0 7px 34px 0 rgba(0, 0, 0, 0.7);
+}
+.btn {
+  background-color: #333;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 7px 34px 0;
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 1em;
+  padding: 0 25px;
+  text-decoration: none;
+  transform: translateY(-2px);
+  transition-delay: 0s;
+  transition-duration: 250ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  will-change: transform;
+}
+
+.nav {
+  padding-top: 3em;
+  align-items: center;
+}
+.logo {
+  text-decoration: none;
+  font-size: 28px;
+  color: #3480e3;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.pages {
+  float: right;
+  text-align: right;
+}
+.btn-one {
+  color: #63d2ff;
+  border: 2px solid #63d2ff;
+  border-radius: 100px;
+  padding: 0.6em 1.75em;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.btn-one:hover {
+  background-color: #63d2ff;
+  color: white;
+}
+.nav-item {
+  text-decoration: none;
+  color: #657783;
+  margin-left: 25px;
+  vertical-align: middle;
+  font-size: 17px;
+  font-weight: 500;
+}
+.landingWrapper {
+  width: 85%;
+  margin: auto;
+}
+.landingContent {
+  width: 88%;
+  margin: 150px auto 0 auto;
+  display: flex;
+}
+.contentLeft {
+  flex: 0 0 53%;
+  padding-top: 75px;
+}
+.contentRight {
+  flex: 0 0 47%;
+}
+.contentLeft h1,
+.contentLeft h2,
+.contentLeft h3,
+.contentLeft p,
+.contentLeft a {
+  color: #222529;
+  text-decoration: none;
+}
