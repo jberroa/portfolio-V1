@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec44086e-50ac-48a0-b17a-8ac0f976db2a/deploy-status)](https://app.netlify.com/sites/jbweatherapp/deploys)
+
 # Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
